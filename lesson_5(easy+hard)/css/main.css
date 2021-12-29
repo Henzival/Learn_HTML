@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    margin-right: 20%;
+}
+.contents {
+    position: fixed;
+    right: 15px;
+    top: 220px;
+}
+.image {
+    border:rgb(113, 139, 0) groove;
+}
+.introduction {
+    border: green solid;
+    text-decoration: line-through;
+}
+.header-chapter1 {
+    color: rgb(228, 253, 2);
+}
+.header-chapter2 {
+    color: rgb(2, 194, 253);
+}
+.header-chapter3 {
+    color: rgb(97, 233, 158);
+}
+.header-chapter4 {
+    color: rgb(113, 175, 255);
+}
+.header-chapter5 {
+    color: rgb(250, 202, 71);
+}
+.chapter-1 {
+    text-decoration: underline;
+}
+.note-1 {
+    font-weight: bold;
+}
+.chapter-1-1 {
+    text-decoration: underline;
+}
+.chapter-2 {
+    font-weight: bold;
+}
+.note-2 {
+    font-weight: bold;
+}
+.italics-2 {
+    font-style: italic;
+}
+.chapter-2-1 {
+    font-style: italic;
+}
+.chapter-3 {
+    text-decoration: underline line-through;
+    color: yellow;
+}
+.note-3 {
+    font-weight: bold;
+}
+.chapter-4 {
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(97, 233, 158)
+}
+.chapter-4-1 {
+    font-style: italic;
+    color:rgb(97, 233, 158)
+}
+.note-4 {
+    font-weight: bold;
+}
+.chapter-5 {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(113, 175, 255);
+}
+.note-5 {
+    font-weight: bold;
+}
+.chapter-5-1 {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(113, 175, 255);
+}
