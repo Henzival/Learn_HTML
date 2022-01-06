@@ -9,10 +9,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-.box {
+.container {
     display: flex;
-    height: 504px;
-    width: 1011px;
+    max-width: 1011px;
     border: 1px solid #e4e4e4;
     background-color: #FFFFFF;
     padding-left: 49px;
@@ -20,12 +19,10 @@ body {
     padding-right: 84px;
     padding-bottom: 64px;
 }
-.left-box {
+.headphones {
     margin: 0;
-    height: 376px;
-    width: 376px;
 }
-button {
+.to-shopping-cart {
     background-color: #ec744a;
     height: 49px;
     width: 251px;
@@ -34,34 +31,35 @@ button {
     color: white;
     border: none;
 }
-.right-box {
+.description-container {
     margin: 0;
     margin-left: 99px;
 }
 .price {
     margin-top: 55px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 .name-product {
     margin-top: 30px;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
 .headphones-description {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 18px;
     margin-top: 30px;
 }
-.number {
+.value {
     margin-top: 23px;
     margin-bottom: 55px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
 p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
     margin: 0;
     padding: 0;
 }
