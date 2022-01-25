@@ -13,7 +13,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
-button {
+.button {
     border: 1px solid;
     font-family: Tahoma, sans-serif;
     font-size: 24px;
@@ -63,7 +63,7 @@ button {
     color: #313131;
     margin-bottom: 52px;
 }
-.delivery {
+.delivery-container {
     margin-top: 95px;
     background-color: #F2F2F2;
     padding-top: 90px;
@@ -86,14 +86,14 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-.image-align {
+.type {
     text-align: center;
 }
 .delivery-description {
     font-size: 18px;
     text-align: center;
 }
-.footer {
+.footer-container {
     margin-top: 90px;
     width: 100%;
     height: 409px;
@@ -109,7 +109,7 @@ button {
 .people {
     display: grid;
     padding-bottom: 110px;
-    grid-template-columns: repeat(auto-fit, minmax(1px, 264px));
+    grid-template-columns: repeat(4, 264px);
     gap: 39px 30px;
     justify-content: center;
 }

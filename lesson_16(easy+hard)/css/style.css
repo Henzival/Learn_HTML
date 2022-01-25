@@ -74,7 +74,7 @@ img {
 
 .button:hover {
   background-color: #000;
-  color: #fff;
+  color: #FFF;
   -webkit-transition: 0.35s;
   transition: 0.35s;
   cursor: pointer;
@@ -249,9 +249,6 @@ img {
 }
 
 .offer {
-  background: url("../img/offer-bg.png") no-repeat;
-  background-position: center right;
-  background-size: contain;
   position: relative;
 }
 
@@ -262,16 +259,18 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 .offer::after {
+  background: url("../img/offer-bg.png") no-repeat;
+  background-size: contain;
   content: '';
   opacity: 0.4;
   height: 100%;
   width: 50%;
   position: absolute;
-  background-color: #fff;
+  background-color: #FFF;
   top: 0;
   right: 0;
 }
@@ -333,9 +332,6 @@ img {
 }
 
 @media (max-width: 1200px) {
-  .offer {
-    background-size: cover;
-  }
   .offer__input {
     width: 100%;
     margin-bottom: 10px;
@@ -343,11 +339,14 @@ img {
   .offer__button {
     font-size: 13px;
   }
+  .offer::after {
+    background-size: cover;
+  }
 }
 
 @media (max-width: 768px) {
   .offer {
-    background: #fff;
+    background: #FFF;
   }
   .offer::after {
     width: 0;

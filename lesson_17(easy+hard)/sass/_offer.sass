@@ -1,7 +1,4 @@
 .offer
-    background: url('../img/offer-bg.png') no-repeat
-    background-position: center right
-    background-size: contain
     position: relative
     &::before
         content: ''
@@ -10,14 +7,16 @@
         position: absolute
         top: 0
         left: 0
-        background-color: #fff
+        background-color: $white
     &::after
+        background: url('../img/offer-bg.png') no-repeat
+        background-size: contain
         content: ''
         opacity: 0.4
         height: 100%
         width: 50%
         position: absolute
-        background-color: #fff
+        background-color: $white
         top: 0
         right: 0
     &__title
@@ -63,7 +62,7 @@
             font-size: 13px
 @media(max-width: 768px)
     .offer
-        background: #fff
+        background: $white
         &::after
            width: 0
            height: 0

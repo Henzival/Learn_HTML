@@ -5,11 +5,6 @@ body {
     background-color: #f9f9f9;
     margin: 0;
 }
-h1 {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-}
 .button-buy {
     background-color: #f9f9f9;
     height: 56px;
@@ -29,12 +24,21 @@ p {
 }
 .container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    height: 100vh;
+    margin: auto;
 }
-.title-1 {
+.main {
+    margin: auto;
+}
+.card-wrapper {
+    display: flex;
+    margin: auto;
+}
+.title-1 {  
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
     text-align: center;
-    margin-top: 100px;
     font-size: 36px;
 }
 .card-1 {

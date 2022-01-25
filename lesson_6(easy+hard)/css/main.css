@@ -4,13 +4,10 @@
 body {
     background-color: #f6f6f6;
     margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.container {
+.card {
     display: flex;
+    margin: auto;
     max-width: 1011px;
     border: 1px solid #e4e4e4;
     background-color: #FFFFFF;
@@ -18,6 +15,11 @@ body {
     padding-top: 64px;
     padding-right: 84px;
     padding-bottom: 64px;
+}
+.container {
+    display: flex;
+    margin: auto;
+    height: 100vh;
 }
 .headphones {
     margin: 0;
