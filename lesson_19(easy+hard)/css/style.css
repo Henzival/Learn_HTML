@@ -88,7 +88,7 @@ img {
   border-radius: 10px;
 }
 
-.go_up {
+.go_up_wrapper {
   position: fixed;
   z-index: 999999;
   opacity: 0.4;
