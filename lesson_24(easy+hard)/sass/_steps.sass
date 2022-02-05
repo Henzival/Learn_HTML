@@ -1,0 +1,30 @@
+.steps
+    &__title
+        margin: auto
+        margin-bottom: 59px
+        max-width: 651px
+    &__subtitle
+        margin-bottom: 59px
+        text-align: center
+    &-list
+        display: flex
+        justify-content: space-between
+        &__arrow
+            height: 25px
+        &__text
+            text-align: center
+            max-width: 175px
+        &__image
+            display: block
+            margin: auto
+            width: 100px
+            height: 100px
+@media (max-width: 1200px)
+    .steps
+        &__card
+            margin-right: 15px
+        &-list
+            flex-wrap: wrap
+            justify-content: center  
+            &__arrow
+                display: none
