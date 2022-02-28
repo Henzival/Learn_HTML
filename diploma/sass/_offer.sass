@@ -1,0 +1,68 @@
+.offer
+    &__title
+        margin: 0
+        padding: 0
+        +semib
+        margin-bottom: 17px
+        max-width: 520px
+        font-size: 34px
+        line-height: 52px
+        text-align: left
+        color: $secondary
+    &-block
+        padding-top: 25px
+    &__subtitle
+        display: block
+        margin-bottom: 30px
+        color: $text-color
+    &__description-wrapper
+        display: flex
+    &-cards
+        display: flex
+        justify-content: space-between
+    &-card
+        &__title
+            +bold
+        &__subtitle
+            +med
+        &__text
+            color: $text-color
+            max-width: 300px
+            line-height: 28px
+@media(max-width: 1200px)
+    .offer
+        &-cards
+            flex-direction: column
+        &__title
+            margin: 0 auto
+            text-align: center
+            margin-bottom: 17px
+        &__subtitle
+            margin: 0 auto
+            text-align: center
+            margin-bottom: 30px
+        &-card
+            display: block
+            text-align: center
+            margin: 0 auto
+            &__text
+                max-width: none
+@media(max-width: 567px)
+    .offer
+        &__title
+            font-size: 17px
+            line-height: 26px
+        &__subtitle
+            font-size: 12px
+        &-card
+            &__title
+                font-size: 12px
+                margin-bottom: 10px
+            &__subtitle
+                font-size: 10px
+            &__text
+                font-size: 9px
+                max-width: 100px
+                line-height: 17px
+                margin: 0 auto
+                margin-top: 10px

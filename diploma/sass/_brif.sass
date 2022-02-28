@@ -1,0 +1,61 @@
+.brif
+    color: $white
+    &-block
+        display: flex
+        background: url('../img/brif-bg.jpg') no-repeat
+        background-position: top center
+        background-size: 100% 100%
+        justify-content: center
+    &-form
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 35px
+        &__description
+            display: block
+            color: $link-color
+            margin-bottom: 100px
+            margin-top: 15px
+    &__input
+        min-width: 380px
+        height: 52px
+        margin-right: 18px !important
+        border-radius: 5px
+    &__title
+        margin: 0
+        max-width: 664px
+        padding: 0
+        padding-top: 100px
+        font-size: 30px
+        +med
+        color: $white
+        margin-bottom: 15px
+    &__subtitle
+        display: block
+        font-size: 16px
+        color: $link-color
+    &-button
+        height: 52px
+        background: $button
+.text-wrapper
+    text-align: center
+@media(max-width: 768px)
+    .brif
+        &__input
+            min-width: 0
+            margin-left: auto !important
+            margin-right: auto !important
+        &__title
+            max-width: 300px    
+            margin-left: auto
+            margin-right: auto
+        &-form
+            &__description
+                max-width: 200px
+                margin-left: auto
+                margin-right: auto
+@media(max-width: 567px)
+    .brif
+        &-form
+            flex-wrap: wrap
+    

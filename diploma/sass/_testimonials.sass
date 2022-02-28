@@ -1,0 +1,98 @@
+.testimonials
+    &__title
+        +semib
+        line-height: 52px
+        font-size: 34px
+        color: $secondary
+        margin: 0
+        padding: 0
+        margin-top: 20px
+    &__subtitle
+        color: $secondary
+    &__quote
+        color: $text-color
+        max-width: 410px
+        font-size: 18px
+        line-height: 32px
+    &__card
+        display: flex
+        padding-left: 96px
+.card
+    &__description
+        max-width: 500px
+        line-height: 30px
+        color: $text-color
+    &__image
+        margin-right: 68px
+    &__name
+        display: block
+        margin-top: 33px !important
+        +med
+.title-quote-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 107px
+.quotation-mark
+    width: 52px !important
+.owl-carousel
+    position: relative
+.owl-prev 
+    position: absolute
+.owl-next 
+    position: absolute
+.owl-prev 
+    left: 0
+    top: 200px
+.owl-next
+    right: 0
+    top: 200px
+.owl-theme .owl-dots .owl-dot span 
+    background: transparent
+    border: 1px solid $slider
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
+    background: $slider
+@media(max-width: 1200px)
+    .testimonials
+        &__title
+            max-width: 300px
+        &__card
+            padding-left: 70px
+    .card
+        &__description
+            max-width: 200px
+            margin: auto
+@media(max-width: 768px)
+    .testimonials
+        &__title
+            font-size: 25px
+            line-height: 42px
+        &__quote
+            max-width: 200px
+            font-size: 12px
+            line-height: 26px
+        &__card
+            flex-direction: column
+    .card
+        &__image
+            margin-bottom: 15px
+        &__description
+            margin: 0
+            max-width: 400px
+    .owl-prev 
+        left: 0
+        top: 500px
+    .owl-next
+        right: 0
+        top: 500px
+@media(max-width: 567px)
+    .testimonials
+        &__card
+            padding-left: 30px
+        &__description
+            font-size: 12px
+            line-height: 26px
+            max-width: 170px
+    .card
+        &__description
+            max-width: 200px

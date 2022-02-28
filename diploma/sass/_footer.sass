@@ -1,0 +1,54 @@
+.footer
+    background: url('../img/footer-background.jpg')
+    background-size: 100% 100%
+    padding-bottom: 15px
+    &-link
+        display: block
+        text-decoration: none
+        color: $text-color
+        &:not(:last-child)
+            margin-bottom: 21px           
+    &-blocks
+        display: flex
+        justify-content: space-between
+    &-email
+        padding-left: 10px
+        &-wrapper
+            display: flex
+            align-items: center
+            color: $white
+            margin-bottom: 95px
+    &-copyright
+        padding-top: 35px
+        color: $text-color
+    &__title
+       margin: 0
+       padding: 0
+       letter-spacing: 0.513261px
+       +bold
+       font-size: 31px
+       line-height: 47px
+       margin-bottom: 15px
+       color: $white
+    &__subtitle
+       color: $text-color
+       line-height: 30px
+       padding-bottom: 90px
+       max-width: 290px
+.phone-number
+    color: $white
+    padding-left: 7px
+    &-wrapper
+        display: flex
+        align-items: center
+        margin-bottom: 10px
+@media(max-width: 768px)
+    .footer
+        background: url('../img/footer-adapted-bg.jpg')
+        background-size: 100% 100%
+        &-blocks
+            flex-wrap: wrap
+        &__subtitle
+            padding-bottom: 10px
+        &-email-wrapper
+            margin-bottom: 10px

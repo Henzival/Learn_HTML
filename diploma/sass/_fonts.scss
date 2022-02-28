@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('../fonts/Poppins-Regular/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Regular/Poppins-Regular.woff') format('woff'),
+         url('../fonts/Poppins-Regular/Poppins-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins-Bold/Poppins-Bold.eot');
+    src: url('../fonts/Poppins-Bold/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Bold/Poppins-Bold.woff') format('woff'),
+         url('../fonts/Poppins-Bold/Poppins-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('../fonts/Poppins-Medium/Poppins-Medium.eot');
+    src: url('../fonts/Poppins-Medium/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Medium/Poppins-Medium.woff') format('woff'),
+         url('../fonts/Poppins-Medium/Poppins-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+}
+@font-face {
+    font-family: 'Poppins Semi Bold';
+    src: url('../fonts/Poppins-SemiBold/Poppins-SemiBold.eot');
+    src: url('../fonts/Poppins-SemiBold/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-SemiBold/Poppins-SemiBold.woff') format('woff'),
+         url('../fonts/Poppins-SemiBold/Poppins-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+}
+@mixin reg {
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: 300;
+}
+@mixin bold {
+    font-family: 'Poppins Bold', sans-serif;
+    font-weight: 700;
+}
+@mixin semib {
+    font-family: 'Poppins Semi Bold', sans-serif;
+    font-weight: 600;
+}
+@mixin med {
+    font-family: 'Poppins Medium', sans-serif;
+    font-weight: 500;
+}

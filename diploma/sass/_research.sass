@@ -1,0 +1,63 @@
+.research
+    &__title
+        +semib
+        line-height: 52px   
+        font-size: 34px
+        letter-spacing: 1.11132px
+        max-width: 550px
+        margin-bottom: 14px
+        color: $secondary
+    &__subtitle
+        color: $secondary
+        display: block
+        margin-bottom: 14px !important
+    &__button
+        display: block
+        margin: auto
+        height: 49px
+        width: 169px
+        color: $main-color
+        background: transparent
+        border: 1px solid $main-color
+        border-radius: 5px
+        +med
+.theme-date-wrapper
+    display: flex
+.articles-list
+    display: flex
+.article
+    margin-top: 78px
+    margin-bottom: 74px
+    &__theme
+        text-decoration: none
+        color: black
+    &:not(:last-child)
+        margin-right: 50px
+    &__title
+        margin: 0
+        padding: 0
+        +reg
+        font-size: 18px
+        line-height: 27px
+        text-decoration: none
+        color: black
+    &__info
+        color: $text-color
+        line-height: 25px
+        max-width: 330px
+    &__dot
+        color: $text-color
+    &__date
+        color: $text-color
+@media (max-width: 768px)
+    .articles-list
+        flex-direction: column
+    .article
+        &__info
+            max-width: none
+@media (max-width: 567px)
+    .research
+        &__title
+            +semib
+            line-height: 46px   
+            font-size: 28px

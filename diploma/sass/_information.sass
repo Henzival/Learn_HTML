@@ -1,0 +1,76 @@
+.information
+    background: url('../img/portfolio-bg.jpg')
+    background-size: 100% 100%
+    &__title
+        +semib
+        line-height: 52px   
+        font-size: 34px
+        letter-spacing: 1.11132px
+        max-width: 550px
+        margin-bottom: 14px
+        color: $secondary
+    &__subtitle
+        color: $text-color
+        display: block
+        margin-bottom: 77px !important
+    &-button
+        display: block
+        margin: auto
+        width: 193px
+        height: 53px
+        border: 1px solid $main-color
+        background-color: transparent
+        +med
+        font-size: 16px
+        color: $main-color
+    &-card
+        display: flex
+        justify-content: space-between
+        &:not(:last-child)
+            margin-bottom: 140px
+        &:last-child
+            margin-bottom: 100px
+        &__quote
+            font-size: 18px
+            +med
+            color: $text-color
+        &__title
+            max-width: 350px
+            line-height: 33px
+            +semib
+            font-size: 22px
+            letter-spacing: 0.719088px
+            color: $secondary
+        &__info
+            font-size: 16px
+            max-width: 360px
+            line-height: 26px
+            color: $text-color
+.card-image
+    display: block
+@media(max-width: 1200px)
+    .information
+        &__title
+            margin-left: auto
+            margin-right: auto
+            text-align: center
+        &__subtitle
+            margin-left: auto
+            margin-right: auto
+            text-align: center
+        &-card
+            flex-direction: column
+            justify-content: center
+            text-align: center
+            &__title
+                margin: 0 auto
+            &__info
+                margin: 0 auto
+                margin-bottom: 20px
+            &:not(:last-child)
+                margin-bottom: 20px
+    .information-image-2
+        margin-bottom: 20px
+    .card-image
+        margin: 0 auto
+        
